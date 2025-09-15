@@ -1,5 +1,5 @@
 # Engineering-Data-Management
-Датасет - https://www.kaggle.com/datasets/jtrofe/beer-recipes
+Датасет - https://disk.yandex.ru/d/zoS7hgaKhiFQzA
 Набор рецептур домашнего пива 
 
-Четсно говоря, я не понимаю, куда надо загрудать датасет, поэтому тут прикрепил ссылку.
+
