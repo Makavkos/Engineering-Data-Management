@@ -6,7 +6,11 @@
 
 <img width="487" height="192" alt="Screenshot_12" src="https://github.com/user-attachments/assets/824dc842-ae9d-4c3b-b4f6-fac41d6b0115" />
 
-Для запуска виртуального окружения использовать файл pyproject.toml
+Для работы с проектом:
+1) git clone <URL-репозитория>
+2) Установите зависимости из pyproject.toml при помощи poetry install
+3) Активируйте виртуальное окружение poetry shell
+
 
 Внес изменения в Data_loader.py 
 
