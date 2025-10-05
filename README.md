@@ -45,3 +45,8 @@ poetry run python data_loader.py
 Создал отдельный репозиторий под API ридер: 
 
 https://github.com/Makavkos/API-reader
+
+Результат dtypes:
+
+<img width="574" height="692" alt="image" src="https://github.com/user-attachments/assets/95a2d1e9-1b2f-4a1e-b383-f211fe1f4253" />
+
