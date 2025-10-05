@@ -41,3 +41,5 @@ poetry run python data_loader.py
 Внес изменения в Data_loader.py 
 
 Добавил ноутбук data_loader_notebook.ipynb
+
+Создал отдельный репозиторий под API ридер: 
