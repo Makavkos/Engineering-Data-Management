@@ -43,3 +43,5 @@ poetry run python data_loader.py
 Добавил ноутбук data_loader_notebook.ipynb
 
 Создал отдельный репозиторий под API ридер: 
+
+https://github.com/Makavkos/API-reader
