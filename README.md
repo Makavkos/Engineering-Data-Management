@@ -1,25 +1,29 @@
 # Engineering-Data-Management
-Датасет - https://disk.yandex.ru/d/zoS7hgaKhiFQzA
-Набор рецептур домашнего пива 
+## Введение 
+Датасет содержит информацию о стиях пива, приготовленного домашними пивоварам и основные характеристики получившегося продукта. Работа направлена на обработку и анализ имеющихся данных. 
+
+## Ссылки
+[Датасет](https://disk.yandex.ru/d/zoS7hgaKhiFQzA)
+[Источник](https://www.kaggle.com/datasets/jtrofe/beer-recipes)
 
 Результат работы скрипта Data_loader.py приведен ниже
 
 <img width="487" height="192" alt="Screenshot_12" src="https://github.com/user-attachments/assets/824dc842-ae9d-4c3b-b4f6-fac41d6b0115" />
 
-Для работы с проектом:
+## Начало работы
 
-1) Клонирование репозитория:
+1) Установить miniconda
+  
+   [На сайте](https://www.anaconda.com/docs/getting-started/miniconda/install)
 
-```  git clone <URL-репозитория>  ```
-
-2) Создание и активация виртуального окружения conda:
+4) Создание и активация виртуального окружения conda:
 
 ```
 conda create -n your_name python=3.13 
 conda activate your_name
 ```
 
-3) Установить poetry, если требуется:
+3) Установить poetry:
 
 ```
 pip install poetry
@@ -33,20 +37,22 @@ cd project_name
 ```
 poetry add pandas matplotlib jupyterlab wget
 ```
+Полный список используемых библиотек приведен в файле pyproject.toml
+
 6) Запустить скрипт Data_loader.py:
 ```
 poetry run python data_loader.py
 ```
-
-Внес изменения в Data_loader.py 
-
-Добавил ноутбук data_loader_notebook.ipynb
-
-Создал отдельный репозиторий под API ридер: 
-
-https://github.com/Makavkos/API-reader
-
-Результат dtypes:
-
-<img width="574" height="692" alt="image" src="https://github.com/user-attachments/assets/95a2d1e9-1b2f-4a1e-b383-f211fe1f4253" />
+## Структура проекта
+```
+Engineering-Data-Management
+└──EDA notebook
+    ├──EDA.ipynb # Ноутбук с кодом EDA
+    ├──Readme.md # Описание EDA
+├──Data_loader.py # Скрипт загрузки датасета
+├──README.md # Описание проекта
+├──environment.yml # Зависимости виртулаьного окружения conda
+├──pyproject.toml # конфигурация проекта
+└──write_to_db.py # скрипт записи датасета в базу данных
+```
 
