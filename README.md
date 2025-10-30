@@ -48,13 +48,15 @@ cd project_name
 ```
 5) Загрузить нужные библиотеки:
 ```
-poetry add pandas matplotlib jupyterlab wget
+poetry add pandas matplotlib jupyterlab wget sqlalchemy fastparquet click
 ```
 Полный список используемых библиотек приведен в файле pyproject.toml
 
-6) Запустить скрипт Data_loader.py:
+6) Запустить скрипт main.py:
 ```
-poetry run python data_loader.py
+python main.py
 ```
-## Результат работы скрипта Data_loader.py 
-<img width="487" height="192" alt="Screenshot_12" src="https://github.com/user-attachments/assets/824dc842-ae9d-4c3b-b4f6-fac41d6b0115" />
+7) Проверка CL-интерфейса:
+```
+python main.py --help
+```
