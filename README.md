@@ -10,14 +10,18 @@
 ## Структура проекта
 ```
 Engineering-Data-Management
-├──EDA notebook
-│    ├──EDA.ipynb # Ноутбук с кодом EDA
-│    └──Readme.md # Описание EDA
+├── EDA notebook
+│    ├── EDA.ipynb # Ноутбук с кодом EDA
+│    └── Readme.md # Описание EDA
 ├──ETL
-├──README.md # Описание проекта
-├──environment.yml # Зависимости виртулаьного окружения conda
-├──pyproject.toml # конфигурация проекта
-└──write_to_db.py # скрипт записи датасета в базу данных
+│    ├── extrat.py # Извлечение датасета из хранилища
+│    ├── main.py # Активация всего ETL
+│    ├── process.py # Обработка датасета
+│    ├── save.py # Сохранение измененого датасета локально в ETL/data/processed и БД
+│    └── validation.py # Валидация всего ETL
+├── README.md # Описание проекта
+├── environment.yml # Зависимости виртулаьного окружения conda
+└── pyproject.toml # конфигурация проекта
 ```
 ## Начало работы
 
