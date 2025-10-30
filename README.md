@@ -10,10 +10,10 @@
 ## Структура проекта
 ```
 Engineering-Data-Management
-└──EDA notebook
-    ├──EDA.ipynb # Ноутбук с кодом EDA
-    ├──Readme.md # Описание EDA
-├──Data_loader.py # Скрипт загрузки датасета
+├──EDA notebook
+│    ├──EDA.ipynb # Ноутбук с кодом EDA
+│    └──Readme.md # Описание EDA
+├──ETL
 ├──README.md # Описание проекта
 ├──environment.yml # Зависимости виртулаьного окружения conda
 ├──pyproject.toml # конфигурация проекта
